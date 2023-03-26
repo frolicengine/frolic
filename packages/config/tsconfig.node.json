@@ -1,0 +1,18 @@
+// Officially recommended node.js 16 base tsconfig.
+// Copy-pasted from: https://github.com/tsconfig/bases
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "./tsconfig.base.json",
+  "display": "Node 17",
+  "compilerOptions": {
+    "lib": ["es2022"],
+    "module": "commonjs",
+    "target": "es2022",
+
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "useDefineForClassFields": true
+  }
+}
